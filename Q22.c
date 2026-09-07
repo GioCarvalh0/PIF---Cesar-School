@@ -1,0 +1,15 @@
+// Questão 22:
+
+#include <stdio.h>
+
+int main() {
+    //carro
+    printf("\xdc\xdc\xdb\xdb\xdb\xdb\xdc\xdc\n");
+    printf("\xdfO\xdf\xdf\xdf\xdf\xdfO\xdf\n");
+
+    // caminhão
+    printf("\xdc\xdc\xdb \xdb\xdb\xdb\xdb\xdb\xdb\n");
+    printf("\xdfO\xdf\xdf\xdf\xdf\xdf\xdfOO\xdf\n");
+
+    return 0;
+}
